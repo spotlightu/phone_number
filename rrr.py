@@ -1,0 +1,6 @@
+J = input().strip()
+S = input().strip()
+jewels = set(J)
+n = sum(1 for i in S if i in jewels)
+print(n)
+print('Hello world')
